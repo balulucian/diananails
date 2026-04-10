@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programare Manichiură Brașov — Rezervă Online | Diana Nails Studio</title>
+  <meta name="description" content="Rezervă online programarea la Diana Nails Studio Brașov. Manichiură, pedichiură, unghii gel. Program: Luni-Vineri 09-19, Sâmbătă 09-17. Tel: 0774 508 726.">
+  <meta name="keywords" content="programare manichiura brasov, rezervare online salon unghii brasov, contact diana nails brasov, programari unghii gel brasov">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://diananails.ro/programari.html">
+  <meta property="og:title" content="Programare Manichiură Brașov | Diana Nails Studio">
+  <meta property="og:description" content="Rezervă programarea online la Diana Nails Studio Brașov. Răspuns în 2 ore!">
+  <meta property="og:url" content="https://diananails.ro/programari.html">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Acasă","item":"https://diananails.ro/"},{"@type":"ListItem","position":2,"name":"Programare","item":"https://diananails.ro/programari.html"}]}</script>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .contact-section { padding: 6rem 0 10rem; }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 6rem; align-items: start; }
+    .contact-info-block { margin-bottom: 2.5rem; }
+    .contact-info-title { font-family:'Cormorant Garamond',serif; font-size:1.6rem; font-weight:300; color:var(--dark); margin-bottom:1.5rem; }
+    .contact-items { list-style:none; }
+    .contact-item {
+      display:flex; align-items:flex-start; gap:1.2rem;
+      padding:1.2rem 0; border-bottom:1px solid var(--border);
+    }
+    .contact-item:first-child { border-top:1px solid var(--border); }
+    .contact-icon { width:36px; height:36px; flex-shrink:0; border:1px solid var(--border-mid); display:flex; align-items:center; justify-content:center; color:var(--gold); font-size:.9rem; margin-top:.1rem; }
+    .contact-label { font-size:.62rem; letter-spacing:.2em; text-transform:uppercase; color:var(--text-dim); margin-bottom:.3rem; }
+    .contact-value { font-size:.92rem; color:var(--dark); }
+    .contact-value a { color:var(--dark); text-decoration:none; transition:color .3s; }
+    .contact-value a:hover { color:var(--gold); }
+    .hours-table { width:100%; border-collapse:collapse; margin-top:1.5rem; }
+    .hours-table td { padding:.6rem 0; border-bottom:1px solid var(--border); font-size:.85rem; }
+    .hours-table td:first-child { color:var(--text); }
+    .hours-table td:last-child { color:var(--gold); text-align:right; font-weight:500; }
+    .hours-table tr:last-child td { border-bottom:none; }
+    .booking-form-wrap { background:#fff; border:1px solid var(--border); padding:3rem; position:relative; box-shadow:var(--shadow); }
+    .booking-form-wrap::before { content:''; position:absolute; top:-1px; left:2.5rem; right:2.5rem; height:2px; background:linear-gradient(90deg,transparent,var(--gold-mid),transparent); }
+    .form-title { font-family:'Cormorant Garamond',serif; font-size:1.9rem; font-weight:300; color:var(--dark); margin-bottom:.5rem; }
+    .form-subtitle { font-size:.82rem; color:var(--text-dim); margin-bottom:2.5rem; }
+    .form-row { display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; }
+    .form-group { margin-bottom:1.2rem; }
+    .form-label { display:block; font-size:.62rem; letter-spacing:.2em; text-transform:uppercase; color:var(--text-dim); margin-bottom:.6rem; }
+    .form-input,.form-select,.form-textarea {
+      width:100%; background:var(--bg); border:1px solid var(--border-mid);
+      padding:.9rem 1.1rem; color:var(--dark); font-family:'DM Sans',sans-serif;
+      font-size:.88rem; font-weight:300; outline:none;
+      transition:border-color .3s, box-shadow .3s; -webkit-appearance:none;
+    }
+    .form-input::placeholder,.form-textarea::placeholder { color:var(--text-dim); }
+    .form-input:focus,.form-select:focus,.form-textarea:focus { border-color:var(--gold); box-shadow:0 0 0 3px rgba(154,111,40,.06); }
+    .form-select { cursor:none; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%239a6f28' stroke-width='1.5' fill='none'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:right 1.1rem center; padding-right:3rem; background-color:var(--bg); }
+    .form-select option { background:var(--bg); color:var(--dark); }
+    .form-textarea { resize:none; height:110px; }
+    .form-submit { width:100%; background:var(--dark); border:none; padding:1.2rem; color:var(--cream-text); font-family:'DM Sans',sans-serif; font-size:.72rem; font-weight:500; letter-spacing:.22em; text-transform:uppercase; cursor:none; position:relative; overflow:hidden; transition:background .3s,transform .3s var(--ease-out),box-shadow .3s; margin-top:.5rem; }
+    .form-submit::before { content:''; position:absolute; inset:0; background:var(--gold); transform:translateX(-101%); transition:transform .5s var(--ease); }
+    .form-submit:hover::before { transform:translateX(0); }
+    .form-submit:hover { transform:translateY(-2px); box-shadow:0 12px 35px rgba(26,16,10,.2); }
+    .form-submit span { position:relative; z-index:1; }
+    .form-note { font-size:.72rem; color:var(--text-dim); text-align:center; margin-top:1rem; line-height:1.6; }
+    .map-placeholder { height:300px; background:var(--bg3); border:1px solid var(--border); display:flex; align-items:center; justify-content:center; margin-top:3rem; flex-direction:column; gap:1rem; }
+    .map-placeholder p { font-size:.82rem; color:var(--text-dim); }
+    .whatsapp-cta { background:var(--bg2); border:1px solid var(--border); padding:2rem; text-align:center; margin-top:2rem; }
+    .whatsapp-cta p { font-size:.82rem; color:var(--text); margin-bottom:1.2rem; }
+    @media(max-width:900px){ .contact-grid{grid-template-columns:1fr;gap:4rem} .form-row{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+<div id="progress-bar"></div><div id="cursor-dot"></div><div id="cursor-ring"></div>
+<div id="loader"><div class="loader-logo">Diana Nails</div><div class="loader-line"></div></div>
+
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">Diana <span>Nails</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Acasă</a></li>
+    <li><a href="despre.html">Despre</a></li>
+    <li><a href="servicii.html">Servicii</a></li>
+    <li><a href="galerie.html">Galerie</a></li>
+    <li><a href="blog/index.html">Blog</a></li>
+    <li><a href="programari.html" class="active">Contact</a></li>
+  </ul>
+  <a href="programari.html" class="nav-cta">Rezervă Acum</a>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <nav aria-label="breadcrumb" class="breadcrumb"><a href="index.html">Acasă</a><span>›</span><span class="current">Programare</span></nav>
+    <p class="page-hero-label">Rezervă Online</p>
+    <h1 class="page-hero-title reveal">Programare<br><em>Rapidă</em> Brașov</h1>
+    <p class="page-hero-desc reveal delay-1">Completează formularul sau scrie-ne pe WhatsApp. Confirmăm programarea în maxim 2 ore în zilele de lucru.</p>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- INFO -->
+      <div>
+        <div class="contact-info-block reveal">
+          <h2 class="contact-info-title">Informații de <em style="font-style:italic;color:var(--gold)">contact</em></h2>
+          <ul class="contact-items">
+            <li class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div><div class="contact-label">Adresă Salon</div><div class="contact-value">Strada Manole Diamandi Nr. 45<br>Brașov, România</div></div>
+            </li>
+            <li class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div><div class="contact-label">Telefon & WhatsApp</div><div class="contact-value"><a href="tel:+40774508726">0774 508 726</a></div></div>
+            </li>
+            <li class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div><div class="contact-label">Email</div><div class="contact-value"><a href="mailto:contact@diananails.ro">contact@diananails.ro</a></div></div>
+            </li>
+            <li class="contact-item">
+              <div class="contact-icon">📘</div>
+              <div><div class="contact-label">Facebook</div><div class="contact-value"><a href="https://www.facebook.com/NailsbyDyanaSlavu" target="_blank" rel="noopener">Nails by Dyana Slavu</a></div></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="reveal delay-1">
+          <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:300;color:var(--dark);margin-bottom:.5rem">Program de lucru</h3>
+          <table class="hours-table">
+            <tr><td>Luni</td><td>09:00 – 19:00</td></tr>
+            <tr><td>Marți</td><td>09:00 – 19:00</td></tr>
+            <tr><td>Miercuri</td><td>09:00 – 19:00</td></tr>
+            <tr><td>Joi</td><td>09:00 – 19:00</td></tr>
+            <tr><td>Vineri</td><td>09:00 – 19:00</td></tr>
+            <tr><td>Sâmbătă</td><td>09:00 – 17:00</td></tr>
+            <tr><td>Duminică</td><td style="color:var(--text-dim)">Închis</td></tr>
+          </table>
+        </div>
+
+        <div class="whatsapp-cta reveal delay-2">
+          <p>Programare rapidă direct pe WhatsApp — răspundem în minute!</p>
+          <a href="https://wa.me/40774508726?text=Buna%20ziua%2C%20doresc%20o%20programare%20la%20Diana%20Nails%20Studio." target="_blank" rel="noopener" class="btn-gold" style="display:inline-flex"><span>WhatsApp 0774 508 726</span></a>
+        </div>
+
+        <div class="map-placeholder reveal delay-3">
+          <span style="font-size:2rem">📍</span>
+          <p>Str. Manole Diamandi Nr. 45, Brașov</p>
+          <a href="https://maps.google.com/?q=Strada+Manole+Diamandi+45+Brasov" target="_blank" rel="noopener" class="btn-outline" style="font-size:.65rem"><span>Deschide în Google Maps</span></a>
+        </div>
+      </div>
+
+      <!-- FORM -->
+      <div class="booking-form-wrap reveal delay-2">
+        <div class="form-title">Cerere Programare</div>
+        <p class="form-subtitle">Completează formularul — te contactăm în maxim 2 ore pentru confirmare.</p>
+        <form class="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="name">Nume *</label>
+              <input type="text" id="name" class="form-input" placeholder="Prenume Nume" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="phone">Telefon *</label>
+              <input type="tel" id="phone" class="form-input" placeholder="07xx xxx xxx" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email</label>
+            <input type="email" id="email" class="form-input" placeholder="email@exemplu.ro">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="service">Serviciu Dorit *</label>
+            <select id="service" class="form-select" required>
+              <option value="" disabled selected>Selectează serviciul</option>
+              <optgroup label="Manichiură">
+                <option>Manichiură Clasică – 60 lei</option>
+                <option>Manichiură + Lac Semipermanent – 90 lei</option>
+                <option>Manichiură + French – 100 lei</option>
+              </optgroup>
+              <optgroup label="Unghii Gel">
+                <option>Set Complet Gel – 180 lei</option>
+                <option>Umplutură Gel – 130 lei</option>
+                <option>Reconstrucție Gel – 200 lei</option>
+                <option>Gel-X Tips – 170 lei</option>
+              </optgroup>
+              <optgroup label="Unghii Acrilice">
+                <option>Set Complet Acrilic – 200 lei</option>
+                <option>Umplutură Acrilic – 150 lei</option>
+              </optgroup>
+              <optgroup label="Pedichiură">
+                <option>Pedichiură Clasică – 100 lei</option>
+                <option>Pedichiură + Lac Semipermanent – 130 lei</option>
+                <option>Pedichiură + Gel – 150 lei</option>
+              </optgroup>
+              <optgroup label="Pachete">
+                <option>Pachet Mani + Pedi – 190 lei</option>
+                <option>Pachet Mireasă – La cerere</option>
+                <option>Abonament 4 Ședințe – 320 lei</option>
+              </optgroup>
+              <option>Nail Art / Design Personalizat</option>
+              <option>Alt serviciu</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="date">Data Preferată *</label>
+              <input type="date" id="date" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="time">Ora Preferată *</label>
+              <select id="time" class="form-select" required>
+                <option value="" disabled selected>Selectează ora</option>
+                <option>09:00</option><option>09:30</option><option>10:00</option>
+                <option>10:30</option><option>11:00</option><option>11:30</option>
+                <option>12:00</option><option>12:30</option><option>13:00</option>
+                <option>13:30</option><option>14:00</option><option>14:30</option>
+                <option>15:00</option><option>15:30</option><option>16:00</option>
+                <option>16:30</option><option>17:00</option><option>17:30</option>
+                <option>18:00</option><option>18:30</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Design / Mesaj (opțional)</label>
+            <textarea id="message" class="form-textarea" placeholder="Descrie designul dorit, adaugă link referință Pinterest/Instagram, sau orice altă informație relevantă..."></textarea>
+          </div>
+          <button type="submit" class="form-submit"><span>Trimite Cererea de Programare →</span></button>
+          <p class="form-note">* Câmpuri obligatorii. Confirmare în maxim 2 ore în orele de program.<br>Datele tale sunt confidențiale și nu vor fi distribuite terților.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div><a href="index.html" class="footer-logo">Diana <span>Nails</span></a><p class="footer-tagline">"Unghii care îți vorbesc<br>sufletului"</p><div class="footer-social"><a href="https://www.facebook.com/NailsbyDyanaSlavu" target="_blank" rel="noopener" class="footer-social-link">f</a><a href="https://wa.me/40774508726" target="_blank" rel="noopener" class="footer-social-link">W</a><a href="mailto:contact@diananails.ro" class="footer-social-link">@</a></div></div>
+      <div><div class="footer-col-title">Servicii</div><ul class="footer-links"><li><a href="servicii.html#manicure">Manichiură Brașov</a></li><li><a href="servicii.html#gel">Unghii Gel</a></li><li><a href="servicii.html#acrilic">Unghii Acrilice</a></li><li><a href="servicii.html#nailart">Nail Art</a></li><li><a href="servicii.html#pedicure">Pedichiură</a></li></ul></div>
+      <div><div class="footer-col-title">Studio</div><ul class="footer-links"><li><a href="index.html">Acasă</a></li><li><a href="despre.html">Despre</a></li><li><a href="galerie.html">Portofoliu</a></li><li><a href="blog/index.html">Blog</a></li></ul></div>
+      <div><div class="footer-col-title">Program</div><div class="footer-hours-item"><span class="day">Lun – Vin</span><span class="time">09:00 – 19:00</span></div><div class="footer-hours-item"><span class="day">Sâmbătă</span><span class="time">09:00 – 17:00</span></div><div class="footer-hours-item"><span class="day">Duminică</span><span class="time" style="color:rgba(250,247,242,.25)">Închis</span></div></div>
+    </div>
+    <div class="footer-bottom"><p class="footer-copy">© 2025 Diana Nails Studio · Brașov</p><div class="footer-bottom-links"><a href="#">Confidențialitate</a><a href="sitemap.xml">Sitemap</a></div></div>
+  </div>
+</footer>
+<a href="https://wa.me/40774508726" target="_blank" rel="noopener" class="whatsapp-float"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+<script src="app.js"></script>
+<script>
+  document.querySelector('.contact-form').addEventListener('submit', e => {
+    e.preventDefault();
+    const btn = e.target.querySelector('.form-submit span');
+    btn.textContent = '✓ Cerere trimisă! Te contactăm în 2 ore.';
+    btn.closest('button').style.background = '#2d6a4f';
+    setTimeout(() => { btn.textContent = 'Trimite Cererea de Programare →'; btn.closest('button').style.background = ''; }, 5000);
+  });
+  // Set min date to today
+  const d = document.getElementById('date');
+  if(d){ const t=new Date(); d.min=t.toISOString().split('T')[0]; }
+</script>
+</body>
+</html>
