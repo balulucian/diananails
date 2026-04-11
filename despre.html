@@ -47,7 +47,15 @@
     .timeline-year { font-size:.65rem; letter-spacing:.25em; text-transform:uppercase; color:var(--gold); margin-bottom:.5rem; }
     .timeline-event { font-family:'Cormorant Garamond',serif; font-size:1.3rem; color:var(--dark); margin-bottom:.5rem; }
     .timeline-desc { font-size:.85rem; color:var(--text); line-height:1.7; }
-    @media(max-width:900px){ .story-grid{grid-template-columns:1fr;gap:4rem} .values-grid{grid-template-columns:1fr} .certs-grid{grid-template-columns:1fr 1fr} }
+    @media(max-width:900px){
+      .story-grid { grid-template-columns:1fr; gap:2rem; margin-bottom:3rem; }
+      .about-story { padding: 4rem 0; }
+      .values-section { padding: 4rem 0; }
+      .certifications { padding: 4rem 0; }
+      .timeline { padding: 4rem 0; }
+      .values-grid { grid-template-columns:1fr; }
+      .certs-grid { grid-template-columns:1fr 1fr; }
+    }
   </style>
 </head>
 <body>
@@ -81,7 +89,7 @@
     <!-- STORY 1 -->
     <div class="story-grid">
       <div class="story-img reveal-left" style="position:relative">
-        <img src="images/despre-story1.jpg" alt="Diana Slavu nail artist Brașov" loading="lazy">
+        <img src="images/worker-nail-salon.png" alt="Diana Slavu nail artist Brașov" loading="lazy">
         <div class="story-img-deco"></div>
         <div class="story-badge"><div class="story-badge-num">2012</div><div class="story-badge-txt">Fondarea<br>studioului</div></div>
       </div>
@@ -99,7 +107,7 @@
     <!-- STORY 2 -->
     <div class="story-grid" style="direction:rtl">
       <div class="story-img reveal-right" style="position:relative;direction:ltr;overflow:hidden">
-        <img src="images/despre-story2.png" alt="Calitate și materiale premium la Diana Nails Studio" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;position:absolute;inset:0">
+        <img src="images/pedicure-manicure.png" alt="Calitate și materiale premium la Diana Nails Studio" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;display:block">
         <div class="story-img-deco" style="left:-1.5rem;right:auto"></div>
       </div>
       <div class="story-text" style="direction:ltr">
