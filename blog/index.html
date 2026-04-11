@@ -23,7 +23,7 @@
       transition: box-shadow .4s, border-color .4s, transform .4s var(--ease-out);
     }
     .blog-featured-main:hover { box-shadow: var(--shadow-lg); border-color: var(--border-mid); transform: translateY(-5px); }
-    .blog-featured-thumb { aspect-ratio: 16/9; background: var(--bg3); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+    .blog-featured-thumb { aspect-ratio: 4/3; background: var(--bg3); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
     .blog-featured-cat { position: absolute; top: 1.5rem; left: 1.5rem; background: var(--gold); color: var(--cream-text); font-size: .58rem; letter-spacing: .2em; text-transform: uppercase; padding: .35rem .9rem; }
     .blog-featured-body { padding: 2.5rem; flex: 1; display: flex; flex-direction: column; }
     .blog-featured-date { font-size: .62rem; letter-spacing: .2em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 1rem; }
@@ -54,7 +54,7 @@
       transition: box-shadow .4s, border-color .4s, transform .4s var(--ease-out);
     }
     .blog-card:hover { box-shadow: var(--shadow-lg); border-color: var(--border-mid); transform: translateY(-5px); }
-    .blog-card-thumb { aspect-ratio: 16/9; background: var(--bg3); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+    .blog-card-thumb { aspect-ratio: 4/3; background: var(--bg3); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
     .blog-card-cat { position: absolute; top: 1rem; left: 1rem; background: var(--gold); color: var(--cream-text); font-size: .56rem; letter-spacing: .18em; text-transform: uppercase; padding: .3rem .8rem; }
     .thumb-text { font-family: 'Cormorant Garamond', serif; font-size: .78rem; letter-spacing: .15em; color: var(--text-dim); }
     .blog-card-body { padding: 1.8rem; flex: 1; display: flex; flex-direction: column; }
@@ -109,7 +109,7 @@
       <a href="cum-sa-alegi-designul-unghii.html" class="blog-featured-main">
         <div class="blog-featured-thumb">
           <span class="blog-featured-cat">Ghid Complet</span>
-          <img src="../images/blog-1.jpeg" alt="Design unghii 2025" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center;position:absolute;inset:0">
+          <img src="../images/blog-1.jpeg" alt="Design unghii 2025" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center 20%;position:absolute;inset:0">
         </div>
         <div class="blog-featured-body">
           <div class="blog-featured-date">15 Ianuarie 2025 · 8 min citire</div>
@@ -122,7 +122,7 @@
         <a href="gel-vs-acrilic.html" class="blog-side-card">
           <div class="blog-side-thumb">
             <span class="blog-side-cat">Comparație</span>
-            <img src="../images/blog-2.jpeg" alt="Gel vs Acrilic" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center;position:absolute;inset:0">
+            <img src="../images/blog-2.jpeg" alt="Gel vs Acrilic" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center 20%;position:absolute;inset:0">
           </div>
           <div class="blog-side-body">
             <div class="blog-side-date">8 Februarie 2025</div>
@@ -133,7 +133,7 @@
         <a href="cat-dureaza-unghiile-gel.html" class="blog-side-card">
           <div class="blog-side-thumb">
             <span class="blog-side-cat">Sfaturi</span>
-            <img src="../images/blog-3.jpeg" alt="Cât durează unghiile gel" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center;position:absolute;inset:0">
+            <img src="../images/blog-3.jpeg" alt="Cât durează unghiile gel" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center 20%;position:absolute;inset:0">
           </div>
           <div class="blog-side-body">
             <div class="blog-side-date">1 Martie 2025</div>
@@ -149,7 +149,7 @@
       <div class="blog-all-title reveal">Toate Articolele</div>
       <div class="blog-grid">
         <a href="cum-sa-alegi-designul-unghii.html" class="blog-card reveal">
-          <div class="blog-card-thumb"><span class="blog-card-cat">Ghid</span><img src="../images/blog-1.jpeg" alt="Design unghii 2025" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center;position:absolute;inset:0"></div>
+          <div class="blog-card-thumb"><span class="blog-card-cat">Ghid</span><img src="../images/blog-1.jpeg" alt="Design unghii 2025" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center 20%;position:absolute;inset:0"></div>
           <div class="blog-card-body">
             <div class="blog-card-date">15 Ianuarie 2025</div>
             <h3 class="blog-card-title">Cum să Alegi Designul Perfect pentru Unghii — Ghid Complet 2025</h3>
@@ -158,7 +158,7 @@
           </div>
         </a>
         <a href="gel-vs-acrilic.html" class="blog-card reveal delay-1">
-          <div class="blog-card-thumb"><span class="blog-card-cat">Comparație</span><img src="../images/blog-2.jpeg" alt="Gel vs acrilic" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center;position:absolute;inset:0"></div>
+          <div class="blog-card-thumb"><span class="blog-card-cat">Comparație</span><img src="../images/blog-2.jpeg" alt="Gel vs acrilic" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center 20%;position:absolute;inset:0"></div>
           <div class="blog-card-body">
             <div class="blog-card-date">8 Februarie 2025</div>
             <h3 class="blog-card-title">Gel vs Acrilic — Care este Mai Bun? Diferențe, Avantaje și Prețuri</h3>
@@ -167,7 +167,7 @@
           </div>
         </a>
         <a href="cat-dureaza-unghiile-gel.html" class="blog-card reveal delay-2">
-          <div class="blog-card-thumb"><span class="blog-card-cat">Sfaturi</span><img src="../images/blog-3.jpeg" alt="Cât durează unghiile gel" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center;position:absolute;inset:0"></div>
+          <div class="blog-card-thumb"><span class="blog-card-cat">Sfaturi</span><img src="../images/blog-3.jpeg" alt="Cât durează unghiile gel" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center 20%;position:absolute;inset:0"></div>
           <div class="blog-card-body">
             <div class="blog-card-date">1 Martie 2025</div>
             <h3 class="blog-card-title">Cât Durează Unghiile Gel? 5 Sfaturi să le Menții mai Mult Timp</h3>
