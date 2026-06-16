@@ -19,11 +19,13 @@
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Service","provider":{"@type":"NailSalon","name":"Diana Nails Studio","url":"https://diananails.ro"},
   "serviceType":"Nail Care","areaServed":{"@type":"City","name":"Brașov"},"offers":[
-    {"@type":"Offer","name":"Manichiură Clasică","price":"60","priceCurrency":"RON","description":"Manichiură simplă, 30 minute"},
-    {"@type":"Offer","name":"Manichiură cu Lac Semipermanent","price":"90","priceCurrency":"RON"},
-    {"@type":"Offer","name":"Set Complet Gel","price":"180","priceCurrency":"RON","description":"Unghii gel complete, 2 ore"},
-    {"@type":"Offer","name":"Unghii Acrilice","price":"200","priceCurrency":"RON"},
-    {"@type":"Offer","name":"Pedichiură Clasică","price":"100","priceCurrency":"RON"}
+    {"@type":"Offer","name":"Manichiură Clasică","price":"80","priceCurrency":"RON","description":"Manichiură clasică, 30 minute"},
+    {"@type":"Offer","name":"Manichiură Semipermanentă Clasică","price":"100","priceCurrency":"RON","description":"Manichiură semipermanentă clasică, 1 oră"},
+    {"@type":"Offer","name":"Manichiură Semipermanentă cu Apex","price":"120","priceCurrency":"RON","description":"Manichiură semipermanentă cu apex, 1h 30min"},
+    {"@type":"Offer","name":"Manichiură Japoneză","price":"100","priceCurrency":"RON","description":"Manichiură japoneză, 1 oră"},
+    {"@type":"Offer","name":"Construcție Gel/Polygel","price":"160","priceCurrency":"RON","description":"Construcție gel/polygel, 2h 30min"},
+    {"@type":"Offer","name":"Gel pe Unghia Naturală","price":"130","priceCurrency":"RON","description":"Gel pe unghia naturală, 1h 30min"},
+    {"@type":"Offer","name":"Pedichiură Clasică","price":"100","priceCurrency":"RON","description":"Pedichiură clasică, 40 minute"}
   ]}</script>
   <link rel="stylesheet" href="styles.css">
   <style>
@@ -110,79 +112,156 @@
     <div class="services-category" id="manicure">
       <div class="cat-header reveal">
         <div class="cat-icon">💅</div>
-        <div><h2 class="cat-title">Manichiură Clasică & Semipermanentă</h2><p class="cat-desc">Manichiura perfectă — simplă, cu lac semipermanent sau french. Durată: 30–50 minute.</p></div>
+        <div><h2 class="cat-title">Manichiură</h2><p class="cat-desc">Manichiură clasică, semipermanentă sau japoneză — îngrijire completă a unghiilor.</p></div>
       </div>
       <div class="prices-grid">
-        <div class="price-card reveal"><div class="price-card-name">Manichiură de Bază</div><div class="price-card-time">30 minute</div><ul class="price-list"><li class="price-row">Manichiură simplă<span class="price-dots"></span><span class="price-amount">60 lei</span></li><li class="price-row">Manichiură + lac colorat<span class="price-dots"></span><span class="price-amount">75 lei</span></li></ul></div>
-        <div class="price-card reveal delay-1"><div class="price-card-name">Semipermanent</div><div class="price-card-time">45 minute</div><ul class="price-list"><li class="price-row">Manichiură + lac semipermanent<span class="price-dots"></span><span class="price-amount">90 lei</span></li><li class="price-row">Manichiură + French<span class="price-dots"></span><span class="price-amount">100 lei</span></li></ul></div>
-        <div class="price-card reveal delay-2"><div class="price-card-name">Îndepărtare</div><div class="price-card-time">20–30 minute</div><ul class="price-list"><li class="price-row">Îndepărtare lac semipermanent<span class="price-dots"></span><span class="price-amount">40 lei</span></li><li class="price-row">Îndepărtare gel / acrilic<span class="price-dots"></span><span class="price-amount">50 lei</span></li></ul></div>
+        <div class="price-card reveal">
+          <div class="price-card-name">Manichiură Clasică</div>
+          <div class="price-card-time">30 minute</div>
+          <ul class="price-list">
+            <li class="price-row">Manichiură clasică<span class="price-dots"></span><span class="price-amount">80 lei</span></li>
+          </ul>
+        </div>
+        <div class="price-card reveal delay-1">
+          <div class="price-card-name">Manichiură Semipermanentă</div>
+          <div class="price-card-time">1h – 1h 30min</div>
+          <ul class="price-list">
+            <li class="price-row">Clasică<span class="price-dots"></span><span class="price-amount">100 lei</span></li>
+            <li class="price-row">Cu apex<span class="price-dots"></span><span class="price-amount">120–130 lei</span></li>
+          </ul>
+          <div style="font-size:.72rem;color:var(--text-dim);margin-top:.8rem;line-height:1.6">Clasică: 1 h &nbsp;·&nbsp; Cu apex: 1h 30 min</div>
+        </div>
+        <div class="price-card reveal delay-2">
+          <div class="price-card-name">Manichiură Japoneză</div>
+          <div class="price-card-time">1 oră</div>
+          <ul class="price-list">
+            <li class="price-row">Manichiură japoneză<span class="price-dots"></span><span class="price-amount">100 lei</span></li>
+          </ul>
+        </div>
       </div>
     </div>
 
-    <!-- UNGHII GEL -->
+    <!-- CONSTRUCȚIE & GEL -->
     <div class="services-category" id="gel">
       <div class="cat-header reveal">
         <div class="cat-icon">✨</div>
-        <div><h2 class="cat-title">Unghii Gel Brașov</h2><p class="cat-desc">Unghii gel naturale, rezistente și flexibile. Set complet, umplutură sau reconstrucție gel.</p></div>
+        <div><h2 class="cat-title">Construcție & Gel pe Unghia Naturală</h2><p class="cat-desc">Construcție gel/polygel, gel pe unghia naturală, întreținere și manichiură slim.</p></div>
       </div>
       <div class="prices-grid">
-        <div class="price-card reveal"><div class="price-card-name">Set Complet Gel</div><div class="price-card-time">2 ore</div><ul class="price-list"><li class="price-row">Set complet gel (culoare inclusă)<span class="price-dots"></span><span class="price-amount">180 lei</span></li><li class="price-row">Set complet gel + design simplu<span class="price-dots"></span><span class="price-amount">210 lei</span></li></ul></div>
-        <div class="price-card reveal delay-1"><div class="price-card-name">Umplutură & Întreținere</div><div class="price-card-time">1h 30min</div><ul class="price-list"><li class="price-row">Umplutură gel<span class="price-dots"></span><span class="price-amount">130 lei</span></li><li class="price-row">Reconstrucție gel<span class="price-dots"></span><span class="price-amount">200 lei</span></li></ul></div>
-        <div class="price-card reveal delay-2"><div class="price-card-name">Gel-X Tips</div><div class="price-card-time">1h 45min</div><ul class="price-list"><li class="price-row">Gel-X set complet<span class="price-dots"></span><span class="price-amount">170 lei</span></li><li class="price-row">Gel-X umplutură<span class="price-dots"></span><span class="price-amount">120 lei</span></li></ul></div>
+        <div class="price-card reveal">
+          <div class="price-card-name">Construcție & Gel Natural</div>
+          <div class="price-card-time">1h 30min – 2h 30min</div>
+          <ul class="price-list">
+            <li class="price-row">Construcție gel/polygel<span class="price-dots"></span><span class="price-amount">160–200 lei</span></li>
+            <li class="price-row">Gel pe unghia naturală<span class="price-dots"></span><span class="price-amount">130–150 lei</span></li>
+          </ul>
+          <div style="font-size:.72rem;color:var(--text-dim);margin-top:.8rem;line-height:1.6">Construcție: 2h 30min &nbsp;·&nbsp; Gel natural: 1h 30min</div>
+        </div>
+        <div class="price-card reveal delay-1">
+          <div class="price-card-name">Întreținere</div>
+          <div class="price-card-time">2 ore</div>
+          <ul class="price-list">
+            <li class="price-row">Întreținere gel/polygel<span class="price-dots"></span><span class="price-amount">150–180 lei</span></li>
+            <li class="price-row">Întreținere din altă parte<span class="price-dots"></span><span class="price-amount">160–190 lei</span></li>
+          </ul>
+        </div>
+        <div class="price-card reveal delay-2">
+          <div class="price-card-name">Manichiură Slim</div>
+          <div class="price-card-time">2h – 2h 30min</div>
+          <ul class="price-list">
+            <li class="price-row">Manichiură slim<span class="price-dots"></span><span class="price-amount">170 lei</span></li>
+          </ul>
+        </div>
       </div>
     </div>
 
-    <!-- UNGHII ACRILICE -->
-    <div class="services-category" id="acrilic">
-      <div class="cat-header reveal">
-        <div class="cat-icon">💎</div>
-        <div><h2 class="cat-title">Unghii Acrilice & Combinat</h2><p class="cat-desc">Tehnica acrilică pentru rezistență maximă. Potrivită pentru unghii naturale fragile.</p></div>
-      </div>
-      <div class="prices-grid">
-        <div class="price-card reveal"><div class="price-card-name">Acrilic Complet</div><div class="price-card-time">2h 30min</div><ul class="price-list"><li class="price-row">Set complet acrilic<span class="price-dots"></span><span class="price-amount">200 lei</span></li><li class="price-row">Umplutură acrilic<span class="price-dots"></span><span class="price-amount">150 lei</span></li></ul></div>
-        <div class="price-card reveal delay-1"><div class="price-card-name">Combinat Gel-Acrilic</div><div class="price-card-time">2 ore</div><ul class="price-list"><li class="price-row">Set combinat complet<span class="price-dots"></span><span class="price-amount">190 lei</span></li><li class="price-row">Umplutură combinat<span class="price-dots"></span><span class="price-amount">140 lei</span></li></ul></div>
-        <div class="price-card reveal delay-2"><div class="price-card-name">Îndepărtare Acrilic</div><div class="price-card-time">45 minute</div><ul class="price-list"><li class="price-row">Îndepărtare completă acrilic<span class="price-dots"></span><span class="price-amount">50 lei</span></li></ul></div>
-      </div>
-    </div>
-
-    <!-- NAIL ART -->
-    <div class="services-category" id="nailart">
-      <div class="cat-header reveal">
-        <div class="cat-icon">🎨</div>
-        <div><h2 class="cat-title">Nail Art & Design Personalizat</h2><p class="cat-desc">De la design simplu la nail art complex 3D, marble sau cristale. Reproducem orice referință.</p></div>
-      </div>
-      <div class="prices-grid">
-        <div class="price-card reveal"><div class="price-card-name">Design de Bază</div><div class="price-card-time">per unghie</div><ul class="price-list"><li class="price-row">Design simplu / unghie<span class="price-dots"></span><span class="price-amount">15 lei</span></li><li class="price-row">Design complex / unghie<span class="price-dots"></span><span class="price-amount">25 lei</span></li></ul></div>
-        <div class="price-card reveal delay-1"><div class="price-card-name">Efecte Speciale</div><div class="price-card-time">adăugire la serviciu</div><ul class="price-list"><li class="price-row">Efect marble<span class="price-dots"></span><span class="price-amount">+30 lei</span></li><li class="price-row">3D / Cristale Swarovski<span class="price-dots"></span><span class="price-amount">+50 lei</span></li><li class="price-row">Ombre / gradient<span class="price-dots"></span><span class="price-amount">+20 lei</span></li><li class="price-row">Folie / chrome<span class="price-dots"></span><span class="price-amount">+15 lei</span></li></ul></div>
-        <div class="price-card reveal delay-2"><div class="price-card-name">Full Set Nail Art</div><div class="price-card-time">consultație gratuită</div><ul class="price-list"><li class="price-row">Full set design personalizat<span class="price-dots"></span><span class="price-amount">La cerere</span></li><li class="price-row">Referință Pinterest / Instagram<span class="price-dots"></span><span class="price-amount">La cerere</span></li></ul></div>
-      </div>
-    </div>
-
-    <!-- PEDICURE -->
+    <!-- PEDICHIURĂ -->
     <div class="services-category" id="pedicure">
       <div class="cat-header reveal">
         <div class="cat-icon">🌸</div>
-        <div><h2 class="cat-title">Pedichiură Brașov</h2><p class="cat-desc">Pedichiură clasică, spa sau cu gel. Îngrijire completă pentru picioare frumoase și sănătoase.</p></div>
+        <div><h2 class="cat-title">Pedichiură Brașov</h2><p class="cat-desc">Pedichiură clasică, estetică sau cu ojă semipermanentă. Îngrijire completă pentru picioare sănătoase.</p></div>
       </div>
       <div class="prices-grid">
-        <div class="price-card reveal"><div class="price-card-name">Pedichiură Clasică</div><div class="price-card-time">40–60 minute</div><ul class="price-list"><li class="price-row">Pedichiură simplă<span class="price-dots"></span><span class="price-amount">100 lei</span></li><li class="price-row">Pedichiură + lac colorat<span class="price-dots"></span><span class="price-amount">140 lei</span></li><li class="price-row">Pedichiură + lac semipermanent<span class="price-dots"></span><span class="price-amount">130 lei</span></li></ul></div>
-        <div class="price-card reveal delay-1"><div class="price-card-name">Pedichiură Premium</div><div class="price-card-time">1h 30min</div><ul class="price-list"><li class="price-row">Pedichiură spa<span class="price-dots"></span><span class="price-amount">160 lei</span></li><li class="price-row">Pedichiură + masaj picior<span class="price-dots"></span><span class="price-amount">180 lei</span></li></ul></div>
-        <div class="price-card reveal delay-2"><div class="price-card-name">Pedichiură + Gel</div><div class="price-card-time">1h – 1h 30min</div><ul class="price-list"><li class="price-row">Pedichiură + gel<span class="price-dots"></span><span class="price-amount">150 lei</span></li><li class="price-row">Umplutură gel picioare<span class="price-dots"></span><span class="price-amount">110 lei</span></li></ul></div>
+        <div class="price-card reveal">
+          <div class="price-card-name">Pedichiură Clasică</div>
+          <div class="price-card-time">40 minute</div>
+          <ul class="price-list">
+            <li class="price-row">Pedichiură clasică<span class="price-dots"></span><span class="price-amount">100 lei</span></li>
+          </ul>
+          <div style="font-size:.72rem;color:var(--text-dim);margin-top:.8rem;line-height:1.6">Igienizare și stilizare cuticulă și unghii.</div>
+        </div>
+        <div class="price-card reveal delay-1">
+          <div class="price-card-name">Pedichiură Estetică Clasică</div>
+          <div class="price-card-time">1h – 1h 30min</div>
+          <ul class="price-list">
+            <li class="price-row">Pedichiură estetică clasică<span class="price-dots"></span><span class="price-amount">140 lei</span></li>
+          </ul>
+          <div style="font-size:.72rem;color:var(--text-dim);margin-top:.8rem;line-height:1.6">Igienizare și curățare întregul picior, unghii și bătături subunghiale, curățare tălpi.</div>
+        </div>
+        <div class="price-card reveal delay-2">
+          <div class="price-card-name">Pedichiură cu Ojă Semipermanentă</div>
+          <div class="price-card-time">1h 30min</div>
+          <ul class="price-list">
+            <li class="price-row">Cu ojă semipermanentă<span class="price-dots"></span><span class="price-amount">130 lei</span></li>
+          </ul>
+          <div style="font-size:.72rem;color:var(--text-dim);margin-top:.8rem;line-height:1.6">Igienizare și stilizare cuticulă și unghii, aplicare ojă semipermanentă.</div>
+        </div>
+        <div class="price-card reveal">
+          <div class="price-card-name">Pedichiură Estetică cu Ojă Semi</div>
+          <div class="price-card-time">2 ore</div>
+          <ul class="price-list">
+            <li class="price-row">Estetică + ojă semipermanentă<span class="price-dots"></span><span class="price-amount">160 lei</span></li>
+          </ul>
+          <div style="font-size:.72rem;color:var(--text-dim);margin-top:.8rem;line-height:1.6">Igienizare și curățare întregul picior, bătături subunghiale, curățare tălpi, aplicare ojă semipermanentă.</div>
+        </div>
       </div>
     </div>
 
-    <!-- PACHETE -->
-    <div class="services-category" id="pachete">
+    <!-- SERVICII EXTRA -->
+    <div class="services-category" id="extra">
       <div class="cat-header reveal">
-        <div class="cat-icon">💍</div>
-        <div><h2 class="cat-title">Pachete & Abonamente</h2><p class="cat-desc">Economisești și te răsfeți. Pachete combinate și abonamente lunare avantajoase.</p></div>
+        <div class="cat-icon">🎨</div>
+        <div><h2 class="cat-title">Servicii Extra & Adăugiri</h2><p class="cat-desc">Reparare, demontare, modele french, baby boomer și alte adăugiri la servicii.</p></div>
       </div>
       <div class="prices-grid">
-        <div class="price-card reveal"><div class="price-card-name">Pachet Mani + Pedi</div><div class="price-card-time">3h 30min</div><ul class="price-list"><li class="price-row">Manichiură gel + Pedichiură gel<span class="price-dots"></span><span class="price-amount">190 lei</span></li></ul></div>
-        <div class="price-card reveal delay-1"><div class="price-card-name">Abonament 4 Ședințe</div><div class="price-card-time">lunar</div><ul class="price-list"><li class="price-row">4 manichiuri gel (economisești 30 lei)<span class="price-dots"></span><span class="price-amount">320 lei</span></li></ul></div>
-        <div class="price-card reveal delay-2"><div class="price-card-name">Pachet Mireasă</div><div class="price-card-time">personalizat</div><ul class="price-list"><li class="price-row">Consultare + execuție completă<span class="price-dots"></span><span class="price-amount">La cerere</span></li></ul></div>
+        <div class="price-card reveal">
+          <div class="price-card-name">Reparare & Demontare</div>
+          <div class="price-card-time">30 – 45 minute</div>
+          <ul class="price-list">
+            <li class="price-row">Reparare unghie<span class="price-dots"></span><span class="price-amount">15 lei</span></li>
+            <li class="price-row">Demontare gel/ojă semi + stilizare + lac<span class="price-dots"></span><span class="price-amount">90 lei</span></li>
+          </ul>
+          <div style="font-size:.72rem;color:var(--text-dim);margin-top:.8rem;line-height:1.6">Reparare: 30 min &nbsp;·&nbsp; Demontare: 45 min</div>
+        </div>
+        <div class="price-card reveal delay-1">
+          <div class="price-card-name">Modele</div>
+          <div class="price-card-time">30 – 40 minute</div>
+          <ul class="price-list">
+            <li class="price-row">Model french / baby boomer<span class="price-dots"></span><span class="price-amount">20 lei</span></li>
+            <li class="price-row">Model 4 unghii<span class="price-dots"></span><span class="price-amount">20 lei</span></li>
+            <li class="price-row">Model +6 unghii<span class="price-dots"></span><span class="price-amount">30 lei</span></li>
+          </ul>
+        </div>
+        <div class="price-card reveal delay-2">
+          <div class="price-card-name">Schimbare Formă</div>
+          <div class="price-card-time">adăugire la serviciu</div>
+          <ul class="price-list">
+            <li class="price-row">Schimbarea formei<span class="price-dots"></span><span class="price-amount">15 lei</span></li>
+          </ul>
+        </div>
       </div>
     </div>
+
+    <!-- NOTE IMPORTANTE -->
+    <div class="reveal" style="margin-top:1rem;margin-bottom:2rem;padding:2rem 2.5rem;border:1px solid var(--border);background:#fff">
+      <div style="font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem">Note importante</div>
+      <ul style="list-style:none;display:flex;flex-direction:column;gap:.9rem">
+        <li style="font-size:.85rem;color:var(--text);display:flex;gap:.8rem;align-items:flex-start"><span style="color:var(--gold);flex-shrink:0">❗</span>În prețurile de mai sus este inclus modelul pe 2 unghii.</li>
+        <li style="font-size:.85rem;color:var(--text);display:flex;gap:.8rem;align-items:flex-start"><span style="color:var(--gold);flex-shrink:0">❗</span>La minim 3 unghiuțe căzute se percepe taxa de construcție.</li>
+        <li style="font-size:.85rem;color:var(--text);display:flex;gap:.8rem;align-items:flex-start"><span style="color:var(--gold);flex-shrink:0">❗</span>Timpul de lucru nu este fix, variază în funcție de întârzierea clientului sau mici probleme apărute în timpul procesului.</li>
+      </ul>
+    </div>
+
   </div>
 </section>
 
@@ -192,7 +271,7 @@
     <div class="section-tag reveal">FAQ</div>
     <h2 class="section-title reveal delay-1">Întrebări <em>frecvente</em></h2>
     <div class="faq-grid" style="margin-top:3rem">
-      <div class="faq-item reveal"><div class="faq-q">Cât costă manichiura gel în Brașov?<span class="faq-arrow">↓</span></div><div class="faq-a">La Diana Nails Studio, manichiura cu lac semipermanent pornește de la <strong>90 lei</strong>, iar un set complet de unghii gel costă <strong>180 lei</strong>. Umpluturile gel pornesc de la <strong>130 lei</strong>. Prețurile includ consultație de design și materiale premium certificate.</div></div>
+      <div class="faq-item reveal"><div class="faq-q">Cât costă manichiura în Brașov?<span class="faq-arrow">↓</span></div><div class="faq-a">La Diana Nails Studio, manichiura clasică costă <strong>80 lei</strong>, manichiura semipermanentă clasică costă <strong>100 lei</strong>, iar manichiura semipermanentă cu apex pornește de la <strong>120 lei</strong>. Construcția gel/polygel pornește de la <strong>160 lei</strong>, iar întreținerea gel/polygel de la <strong>150 lei</strong>. Prețurile includ materiale premium certificate.</div></div>
       <div class="faq-item reveal delay-1"><div class="faq-q">Cât durează unghiile gel?<span class="faq-arrow">↓</span></div><div class="faq-a">Unghiile gel executate la Diana Nails Studio durează în medie <strong>4-6 săptămâni</strong>. Durabilitatea depinde și de îngrijirea zilnică — hidratarea cuticulelor și evitarea contactului prelungit cu apă caldă ajută mult.</div></div>
       <div class="faq-item reveal delay-2"><div class="faq-q">Care e diferența dintre gel și acrilic?<span class="faq-arrow">↓</span></div><div class="faq-a">Gelul este mai flexibil, mai natural la aspect și mai ușor de îndepărtat. Acrilicul oferă <strong>rezistență mai mare</strong> și e ideal pentru unghii fragile. Ambele tehnici oferă rezultate excelente — alegerea depinde de stilul și nevoile tale.</div></div>
       <div class="faq-item reveal delay-3"><div class="faq-q">Trebuie să rezerv în avans?<span class="faq-arrow">↓</span></div><div class="faq-a">Recomandăm rezervarea cu cel puțin <strong>24-48 ore</strong> înainte, mai ales pentru weekend. Poți rezerva rapid prin formularul online, WhatsApp (0774 508 726) sau telefon. În cazuri urgente, verificăm disponibilitatea în aceeași zi.</div></div>
@@ -217,7 +296,7 @@
   <div class="container">
     <div class="footer-top">
       <div><a href="index.html" class="footer-logo">Diana <span>Nails</span></a><p class="footer-tagline">"Unghii care îți vorbesc<br>sufletului"</p><div class="footer-social"><a href="https://www.facebook.com/NailsbyDyanaSlavu" target="_blank" rel="noopener" class="footer-social-link">f</a><a href="https://wa.me/40774508726" target="_blank" rel="noopener" class="footer-social-link">W</a><a href="mailto:contact@diananails.ro" class="footer-social-link">@</a></div></div>
-      <div><div class="footer-col-title">Servicii</div><ul class="footer-links"><li><a href="#manicure">Manichiură</a></li><li><a href="#gel">Unghii Gel</a></li><li><a href="#acrilic">Unghii Acrilice</a></li><li><a href="#nailart">Nail Art</a></li><li><a href="#pedicure">Pedichiură</a></li><li><a href="#pachete">Pachete</a></li></ul></div>
+      <div><div class="footer-col-title">Servicii</div><ul class="footer-links"><li><a href="#manicure">Manichiură</a></li><li><a href="#gel">Construcție & Gel</a></li><li><a href="#pedicure">Pedichiură</a></li><li><a href="#extra">Servicii Extra</a></li></ul></div>
       <div><div class="footer-col-title">Studio</div><ul class="footer-links"><li><a href="index.html">Acasă</a></li><li><a href="despre.html">Despre Diana</a></li><li><a href="galerie.html">Portofoliu</a></li><li><a href="blog/index.html">Blog</a></li><li><a href="programari.html">Programare</a></li></ul></div>
       <div><div class="footer-col-title">Contact</div><div style="font-size:.82rem;color:rgba(250,247,242,.4);line-height:2"><div>Str. Manole Diamandi 45</div><div>Brașov, România</div><a href="tel:+40774508726" style="color:var(--gold-light);text-decoration:none;display:block;margin-top:.5rem">0774 508 726</a><a href="mailto:contact@diananails.ro" style="color:rgba(250,247,242,.35);font-size:.78rem;text-decoration:none">contact@diananails.ro</a></div></div>
     </div>
